@@ -52,7 +52,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.theapache64:fig:0.0.2")
+    implementation("com.github.theapache64:fig:0.0.3")
 }
 ```
 
@@ -64,7 +64,7 @@ repositories {
     maven { url 'https://jitpack.io' } // Add jitpack
 }
 dependencies {
-    implementation 'com.github.theapache64:fig:0.0.2'
+    implementation 'com.github.theapache64:fig:0.0.3'
 }
  ```
 </details>
@@ -87,6 +87,9 @@ suspend fun main() {
 ```
 Fruit is 'apple'
 ```
+
+## ▶️ Video Tutorial
+If you want to see this library in practice, you can check out this video tutorial on YouTube: https://youtu.be/E8X94pCJ2zs 
 
 ## 🚫 Limitations 
 - Your value field can't have two data types. To solve this always wrap your number inputs with `TO_TEXT` function. Eg: `=TO_TEXT("2.4")`
